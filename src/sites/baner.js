@@ -6,8 +6,8 @@ import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import Symbol from "../../src/img/symbol_transparent.png";
-import Logo from "../../src/img/logo_n1_transparent.png";
+import Symbol from "../../src/img/symbol.png";
+import Logo from "../../src/img/logo.png";
 import "../../src/css/style_baner.css";
 
 

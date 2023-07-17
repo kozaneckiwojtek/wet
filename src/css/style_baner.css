@@ -2,7 +2,10 @@
     white-space: pre;
 }
 
-
+.nav_element{
+    text-decoration: none;
+    color: black;
+  }
 .baner_elemen {
     display: inline-block;
     margin: 0 10px;
@@ -11,8 +14,11 @@
 .baner_elemen:hover {
     background: rgb(22, 137, 22);
     cursor: pointer;
-    color: white;
+    .nav_element{
+        color: white;
+    }
 }
+
 
 
 .baner_elemen {
@@ -26,7 +32,7 @@
     text-decoration: none;
     padding: 5px;
     border-radius: 10px;
-    transition: 0.4s;
+    transition: 0.5s;
     padding: 5px 10px;
 }
 
@@ -55,3 +61,4 @@
   .baner_elemen{
     margin: 10px;
   }
+

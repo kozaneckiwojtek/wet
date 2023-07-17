@@ -40,12 +40,34 @@
 
 .baner{
     border-bottom: 1px solid rgb(22, 137, 22);
+    padding-top: 10px;
 }
 
+.logo-image{
+    width: 150px;
+}
+
+@media (max-width: 420px) {
+    #adres{
+        font-size: 14px;
+    }
+    #logo_img{
+        width: 250px;
+    }
+    .logo-image{
+        width: 100px;
+    }
+}
 
 @media (max-width: 400px) {
     #adres{
-        font-size: 12px;
+        font-size: 13px;
+    }
+    #logo_img{
+        width: 250px;
+    }
+    .logo-image{
+        width: 100px;
     }
 }
 

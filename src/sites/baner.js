@@ -6,8 +6,8 @@ import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import Symbol from "../../src/img/symbol.png";
-import Logo from "../../src/img/logo_transparent.png";
+import Symbol from "../../src/img/symbol_transparent.png";
+import Logo from "../../src/img/logo_n1_transparent.png";
 import "../../src/css/style_baner.css";
 
 
@@ -25,7 +25,7 @@ const Baner = () => {
                 <Row>
                     <Col className='logo col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center justify-content-center'>
                         <a id="logotop" href="./">
-                            <img src={Symbol} alt="logo" className="logo-image" style={{ width: "150px"}}/>
+                            <img src={Symbol} alt="logo" className="logo-image" />
                         </a>
                     </Col>
 
@@ -49,7 +49,7 @@ const Baner = () => {
                         </Navbar>
                     </Col>
                     <Col className='logo col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-3 d-flex align-items-center justify-content-center'>
-                        <img src={Logo}/>
+                        <img id='logo_img' src={Logo} alt='logo'/>
                     </Col>
                 </Row>
 

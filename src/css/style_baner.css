@@ -1,0 +1,57 @@
+#adres {
+    white-space: pre;
+}
+
+
+.baner_elemen {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.baner_elemen:hover {
+    background: rgb(22, 137, 22);
+    cursor: pointer;
+    color: white;
+}
+
+
+.baner_elemen {
+    font-size: 25px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    border: 2px solid rgb(22, 137, 22);
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+    padding: 5px 10px;
+}
+
+.baner{
+    border-bottom: 1px solid rgb(22, 137, 22);
+}
+
+
+@media (max-width: 400px) {
+    #adres{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 300px) {
+    #adres{
+        font-size: 10px;
+    }
+}
+
+.custom-hamburger{
+    border-color: rgb(22, 137, 22);
+    margin: 20px;
+  }
+
+  .baner_elemen{
+    margin: 10px;
+  }

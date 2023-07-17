@@ -37,11 +37,11 @@ const Baner = () => {
                             <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-hamburger" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="mr-auto">
-                                    <Nav.Link className='baner_elemen' href="/"><Link className='nav_element' to="/">Witamy</Link></Nav.Link>
-                                    <Nav.Link className='baner_elemen' href="/oferta"><Link className='nav_element' to="/oferta">Oferta</Link></Nav.Link>
-                                    <Nav.Link className='baner_elemen' href="/galeria"><Link className='nav_element' to="/galeria">Galeria</Link></Nav.Link>
-                                    <Nav.Link className='baner_elemen' href="/lokalizacja"><Link className='nav_element' to="/lokalizacja">Lokalizacja</Link></Nav.Link>
-                                    <Nav.Link className='baner_elemen' href="/kontakt"><Link className='nav_element' to="/kontakt">Kontakt</Link></Nav.Link>
+                                    <Link className='nav_element' to="/"><Nav.Link className='baner_elemen' href="/">O nas</Nav.Link></Link>
+                                    <Link className='nav_element' to="/oferta"><Nav.Link className='baner_elemen' href="/oferta">Oferta</Nav.Link></Link>
+                                    <Link className='nav_element' to="/galeria"><Nav.Link className='baner_elemen' href="/galeria">Galeria</Nav.Link></Link>
+                                    <Link className='nav_element' to="/lokalizacja"><Nav.Link className='baner_elemen' href="/lokalizacja">Lokalizacja</Nav.Link></Link>
+                                    <Link className='nav_element' to="/kontakt"><Nav.Link className='baner_elemen' href="/kontakt">Kontakt</Nav.Link></Link>
 
                                 </Nav>
                             </Navbar.Collapse>

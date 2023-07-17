@@ -9,14 +9,16 @@
 .baner_elemen {
     display: inline-block;
     margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
 }
 
 .baner_elemen:hover {
     background: rgb(22, 137, 22);
     cursor: pointer;
-    .nav_element{
-        color: white;
-    }
+    color: white;
 }
 
 
@@ -61,4 +63,6 @@
   .baner_elemen{
     margin: 10px;
   }
+
+
 

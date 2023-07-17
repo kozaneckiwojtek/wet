@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 export function Witamy() {
     return (
         <>
-        <h>Witamy</h><br/>
+        <h>O nas</h><br/>
         </>
     );
 }

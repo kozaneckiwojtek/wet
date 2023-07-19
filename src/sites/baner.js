@@ -23,17 +23,17 @@ const Baner = () => {
         <>
             <Container fluid className='baner'>
                 <Row>
-                    <Col className='logo col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center justify-content-center'>
+                    {/* <Col className='logo col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center justify-content-center'>
                         <a id="logotop" href="./">
                             <img src={Symbol} alt="logo" className="logo-image" />
                         </a>
+                    </Col> */}
+
+                    <Col className='logo col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 d-flex align-items-center justify-content-center'>
+                        <img id='logo_img' src={Logo} alt='logo' />
                     </Col>
 
-                    <Col id='adres_kontener' className='logo col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xl-2 d-flex align-items-center justify-content-begin'>
-                        <p id='adres'>83-200, Starogard Gdański <br/> ul. Lubichowska 91 <br/> Tel. 58 56 11 888</p>
-                    </Col>
-
-                    <Col className='logo col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-5 d-flex align-items-center justify-content-center'>
+                    <Col className='logo col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center'>
                         <Navbar expand="lg" expanded={expanded} onToggle={handleNavToggle}>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-hamburger" />
                             <Navbar.Collapse id="basic-navbar-nav">
@@ -48,9 +48,12 @@ const Baner = () => {
                             </Navbar.Collapse>
                         </Navbar>
                     </Col>
-                    <Col className='logo col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-3 d-flex align-items-center justify-content-center'>
-                        <img id='logo_img' src={Logo} alt='logo'/>
+
+                    <Col id='adres_kontener' className='logo col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xl-2 d-flex align-items-center justify-content-center'>
+                        <p id='adres'>83-200, Starogard Gdański <br /> ul. Lubichowska 91 <br /> Tel. 58 56 11 888</p>
+                        <p id='tel'>Telefon: 58 56 11 888</p>
                     </Col>
+
                 </Row>
 
             </Container>

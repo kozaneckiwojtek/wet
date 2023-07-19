@@ -16,7 +16,7 @@
 }
 
 .baner_elemen:hover {
-    background: rgb(22, 137, 22);
+    background: rgb(17, 91, 17);
     cursor: pointer;
     color: white;
 }
@@ -27,7 +27,7 @@
     font-size: 25px;
     padding-left: 40px;
     font-family: sans-serif;
-    border: 2px solid rgb(22, 137, 22);
+    border: 2px solid rgb(17, 91, 17);
     text-decoration: none;
     color: #333;
     white-space: nowrap;
@@ -39,9 +39,9 @@
 }
 
 .baner{
-    border-bottom: 1px solid rgb(22, 137, 22);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(17, 91, 17);
+    padding: 20px;
+    
 }
 
 .logo-image{
@@ -79,7 +79,7 @@
 }
 
 .custom-hamburger{
-    border-color: rgb(22, 137, 22);
+    border-color: rgb(17, 91, 17);
     margin: 20px;
   }
 
@@ -87,5 +87,19 @@
     margin: 10px;
   }
 
+#tel{
+    display: none;
+}
 
-
+@media (max-width: 1200px) {
+    #adres{
+        display: none !important;
+    }
+    #tel{
+        color: black;
+        font-size: 24px;
+        font-weight: 500;
+        color: rgb(17, 91, 17);
+        display: block;
+    }
+}

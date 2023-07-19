@@ -40,7 +40,7 @@
 
 .baner{
     border-bottom: 1px solid rgb(17, 91, 17);
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -88,6 +88,7 @@
   }
 
 #tel{
+    padding-top: 10px;
     display: none;
 }
 

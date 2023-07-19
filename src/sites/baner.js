@@ -29,11 +29,11 @@ const Baner = () => {
                         </a>
                     </Col> */}
 
-                    <Col className='logo col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 d-flex align-items-center justify-content-center'>
+                    <Col className='logo col-12 col-sm-9 col-md-9 col-lg-12 col-xl-4 col-xxl-4 d-flex align-items-center justify-content-center'>
                         <img id='logo_img' src={Logo} alt='logo' />
                     </Col>
 
-                    <Col className='logo col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center'>
+                    <Col className='logo col-12 col-sm-3 col-md-3 col-lg-12 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center'>
                         <Navbar expand="lg" expanded={expanded} onToggle={handleNavToggle}>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-hamburger" />
                             <Navbar.Collapse id="basic-navbar-nav">

@@ -21,7 +21,8 @@ const Baner = () => {
 
     return (
         <>
-            <Container fluid className='baner'>
+        <div className='baner'>
+            <Container fluid>
                 <Row>
                     {/* <Col className='logo col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center justify-content-center'>
                         <a id="logotop" href="./">
@@ -57,6 +58,7 @@ const Baner = () => {
                 </Row>
 
             </Container>
+            </div>
 
         </>
     );

@@ -4,7 +4,9 @@
     border-top: 5px solid rgb(17, 91, 17);
 }
 
-
+#telefon{
+    color: rgb(17, 91, 17);
+}
 
 .footer-address {
     font-size: 16px;
@@ -14,7 +16,7 @@
 
 .footer-contact {
     font-size: 14px;
-    color: #777;
+    color: rgb(17, 91, 17);
 }
 
 .footer-logo img {

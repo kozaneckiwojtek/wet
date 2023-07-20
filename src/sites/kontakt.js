@@ -17,11 +17,11 @@ export function Kontakt() {
                     <p><strong>Godziny otwarcia:</strong></p>
                     <p>Poniedziałek - Piątek 10:00 - 18:00</p>
                     <p>Sobota 9:00 - 12:00</p>
-                    <p>Telefon: 58 56 11 888</p>
+                    <p id='telefon'><strong>Telefon: 58 56 11 888</strong></p>
                     </div>
                 </Col>
                 <Col md={6} className="contact-info">
-                    <h3>Telefony kontaktowe poza godzinami przyjęć:</h3>
+                    <h3>Telefony kontaktowe:</h3>
                     <p>Lek. wet. Zbigniew Wojewódzki: 501 710 101</p>
                     <p>Lek. wet. Magdalena Grabowska: 666 555 120</p>
                     <p>Lek. wet. Michał Pajkowski: 503 808 108</p>

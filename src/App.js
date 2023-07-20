@@ -8,12 +8,14 @@ import Galeria from './sites/galeria';
 import Lokalizacja from './sites/lokalizacja';
 import Kontakt from './sites/kontakt';
 import Stopka from './sites/stopka';
+import zdj from './img/psy1.jpg'
 
+import './css/App.css'
 function App() {
   return (
     <>
       <Baner />
-
+      {/* <img src={zdj} id='zdj'></img> */}
       <Routes>
         <Route path="/" element={<Witamy />} />
         <Route path="/oferta" element={<Oferta />} />

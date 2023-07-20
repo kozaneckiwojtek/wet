@@ -1,0 +1,30 @@
+/* src/css/style_kontakt.css */
+.contact-info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-info h2, .contact-info h3 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .contact-info p:last-child {
+    margin-bottom: 0;
+  }
+  
+
+ .contact-info{
+    text-align: center;
+  }
+  #godziny{
+    padding-top: 10px;
+  }
+

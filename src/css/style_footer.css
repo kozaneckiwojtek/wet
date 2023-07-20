@@ -1,7 +1,7 @@
 .footer {
     background-color: #f8f8f8;
     padding: 10px;
-    border-top: 1px solid rgb(17, 91, 17);
+    border-top: 5px solid rgb(17, 91, 17);
 }
 
 
@@ -59,11 +59,11 @@
     color: rgb(17, 91, 17);
 }
 
-ul {
-    list-style-type: none;
+.list ul {
+    list-style-type: none !important; 
 }
 
-li::before {
+.list li::before {
     content: "\25B2";
     transform: rotate(90deg);
     display: inline-block;
@@ -87,5 +87,12 @@ li::before {
     li::before{
         font-size: 10px;
     }
+    .logo-image-bot{
+        width: 70px !important;
+    }
 
+}
+
+.list{
+    padding: 0 !important;
 }

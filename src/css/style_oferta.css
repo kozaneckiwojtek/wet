@@ -1,0 +1,18 @@
+/* src/css/style_oferta.css */
+.oferta{
+    padding: 20px;
+}
+h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    /* list-style: disc; */
+  }
+  
+  /* Add more custom styles as needed */
+  

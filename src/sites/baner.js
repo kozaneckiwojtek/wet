@@ -31,7 +31,9 @@ const Baner = () => {
                     </Col> */}
 
                     <Col className='logo col-12 col-sm-9 col-md-9 col-lg-12 col-xl-4 col-xxl-4 d-flex align-items-center justify-content-center'>
+                    <Link to='/' className='footer-baner'>
                         <img id='logo_img' src={Logo} alt='logo' />
+                        </Link>
                     </Col>
 
                     <Col className='logo col-12 col-sm-3 col-md-3 col-lg-12 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center'>

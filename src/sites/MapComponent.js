@@ -39,7 +39,7 @@ const MapComponent = ({ mapLoaded, setMapLoaded }) => {
             <div id="map">
                 <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
                     <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
-                    <a href="https://1map.com/pl/map-embed">1 Map</a>
+                    <a href="https://1map.com/pl/map-embed"></a>
                 </div>
             </div>
         </div>

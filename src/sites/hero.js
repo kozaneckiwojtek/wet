@@ -18,6 +18,7 @@ export function Hero() {
                         <h4>Lekarz weterynarii</h4>
                         <h4>Specjalista chorób psów i kotów</h4>
                         <h4>Specjalista chirurg</h4>
+                        <h4>Specjalista radiolog</h4>
                     </div>
                 </Col>
             </Row>

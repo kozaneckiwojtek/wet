@@ -1,0 +1,21 @@
+/* style_hero.css */
+.hero {
+    background-image: url("../img/pies — kopia_skalowacz_pl.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Ustawiamy wysokość kontenera na 100% wysokości widoku (viewport) */
+    position: relative;
+    
+  }
+  
+  .hero-text {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10%;
+  }
+  
+
+  #hero_all{
+    padding-top: 20px;
+  }

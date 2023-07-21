@@ -1,0 +1,32 @@
+/* style_witamy.css */
+.witamy-container {
+    background-color: #f8f8f8; /* Dodajemy tło dla zawartości */
+    padding: 20px; /* Dodajemy wypełnienie wewnątrz zawartości */
+    border-radius: 8px; /* Zaokrąglamy rogi zawartości */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Dodajemy cień do zawartości */
+
+    padding: 50px 0; /* Dodajemy wypełnienie na górze i na dole */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+
+  
+  .witamy-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .witamy-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .tekst{
+    padding-top: 20px;
+  }
+
+  .zdj{
+    padding-top: 20px;
+  }
